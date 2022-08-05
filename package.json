@@ -2,6 +2,7 @@
     "scripts": {
       "dev": "npm",
       "build": "npm "
-    }
+    },
+    "license": "MIT"
   }
   

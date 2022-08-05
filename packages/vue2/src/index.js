@@ -31,7 +31,7 @@ if (GlobalVue) {
 }
 
 // To allow use as module (npm/webpack/etc.) export component
-export default {Accordion, AccordionItem, Alert};  
+export {Accordion, AccordionItem, Alert};  
 
 // It's possible to expose named exports when writing components that can
 // also be used as directives, etc. - eg. import { RollupDemoDirective } from 'rollup-demo';
