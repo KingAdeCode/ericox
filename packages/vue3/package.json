@@ -2,7 +2,8 @@
   "name": "ericox-vue3",
   "type": "module",
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "main": "./dist/ericox.umd.cjs",
   "module": "./dist/ericox.js",
@@ -12,7 +13,7 @@
       "require": "./dist/ericox.umd.cjs"
     }
   },
-  "private": true,
+  "private": false,
   "version": "0.0.0-alpha",
   "scripts": {
     "dev": "vite",
@@ -28,5 +29,21 @@
     "typescript": "^4.6.4",
     "vite": "^3.0.0",
     "vue-tsc": "^0.38.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingAdeCode/ericox.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "elastik",
+    "ui"
+  ],
+  "author": "kingadecode",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KingAdeCode/ericox/issues"
+  },
+  "homepage": "https://github.com/KingAdeCode/ericox/#readme"
 }
