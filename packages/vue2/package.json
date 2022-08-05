@@ -1,27 +1,29 @@
 {
   "name": "ericox-vue2",
-  "version": "0.0.6",
+  "version": "0.0.0-alpha",
   "description": "Unstyled Vue.js Components",
-  "main": "dist/elastik-ui.common",
-  "unpkg": "dist/elastik-ui.min.js",
-  "typings": "dist/elastik-ui.common",
+  "main": "dist/ericox.common",
+  "unpkg": "dist/ericox.min.js",
+  "typings": "dist/ericox.common",
   "files": [
     "dist/*",
     "README.md"
   ],
 
   "exports": {
-    "import": "./dist/elastik-ui.common",
-    "require": "./dist/elastik-ui.common",
+    "import": "./dist/ericox.common",
+    "require": "./dist/ericox.common",
     "types": "./dist/index.d.ts"
   },
+
+  "private": false,
 
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "npm run build:wc & npm run build:lib",
     "lint": "vue-cli-service lint",
-    "build:lib": "vue-cli-service build --target lib --name elastik-ui 'src/index.js'",
-    "build:wc": "vue-cli-service build --target wc --name elastik-ui 'src/components/**/*.vue'"
+    "build:lib": "vue-cli-service build --target lib --name ericox 'src/index.js'",
+    "build:wc": "vue-cli-service build --target wc --name ericox 'src/components/**/*.vue'"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
@@ -35,7 +37,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KingAdeCode/elastik-vue-ui.git"
+    "url": "git+https://github.com/KingAdeCode/ericox.git"
   },
   "keywords": [
     "vue",
@@ -46,7 +48,7 @@
   "author": "kingadecode",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KingAdeCode/elastik-vue-ui/issues"
+    "url": "https://github.com/KingAdeCode/ericox/issues"
   },
-  "homepage": "https://github.com/KingAdeCode/elastik-vue-ui/#readme"
+  "homepage": "https://github.com/KingAdeCode/ericox/#readme"
 }
