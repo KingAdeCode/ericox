@@ -1,0 +1,19 @@
+{
+  "name": "elastik-vue-ui-documentation",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "Emmanuel",
+    "email": "thunadex1@gmail.com"
+  },
+  "repository": "/elastik-vue-ui-documentation",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}

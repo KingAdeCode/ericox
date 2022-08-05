@@ -1,0 +1,52 @@
+{
+  "name": "ericox-vue2",
+  "version": "0.0.6",
+  "description": "Unstyled Vue.js Components",
+  "main": "dist/elastik-ui.common",
+  "unpkg": "dist/elastik-ui.min.js",
+  "typings": "dist/elastik-ui.common",
+  "files": [
+    "dist/*",
+    "README.md"
+  ],
+
+  "exports": {
+    "import": "./dist/elastik-ui.common",
+    "require": "./dist/elastik-ui.common",
+    "types": "./dist/index.d.ts"
+  },
+
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "npm run build:wc & npm run build:lib",
+    "lint": "vue-cli-service lint",
+    "build:lib": "vue-cli-service build --target lib --name elastik-ui 'src/index.js'",
+    "build:wc": "vue-cli-service build --target wc --name elastik-ui 'src/components/**/*.vue'"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "core-js": "^3.6.5",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^10.1.1",
+    "vue": "^2.6.11",
+    "vue-loader": "^17.0.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingAdeCode/elastik-vue-ui.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "elastik",
+    "ui"
+  ],
+  "author": "kingadecode",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KingAdeCode/elastik-vue-ui/issues"
+  },
+  "homepage": "https://github.com/KingAdeCode/elastik-vue-ui/#readme"
+}

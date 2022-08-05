@@ -1,0 +1,32 @@
+{
+  "name": "ericox-vue3",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/ericox.umd.cjs",
+  "module": "./dist/ericox.js",
+  "exports": {
+    ".": {
+      "import": "./dist/ericox.js",
+      "require": "./dist/ericox.umd.cjs"
+    }
+  },
+  "private": true,
+  "version": "0.0.0-alpha",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build ",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.1",
+    "sass": "^1.54.3",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0",
+    "vue-tsc": "^0.38.4"
+  }
+}
